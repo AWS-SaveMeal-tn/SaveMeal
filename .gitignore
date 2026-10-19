@@ -1,0 +1,41 @@
+# Terraform
+**/.terraform/*
+*.tfstate
+*.tfstate.*
+*.tfplan
+*.tfplan.*
+crash.log
+crash.*.log
+*.tfvars
+!*.tfvars.example
+.terraformrc
+terraform.rc
+
+# Credentials & Sensitive Files
+.env
+.env.*
+*.pem
+*.key
+*.cer
+*.crt
+*.pfx
+aws_credentials
+credentials
+.aws/
+id_rsa*
+
+# OS & Editor
+.DS_Store
+Thumbs.db
+desktop.ini
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Node / Python
+node_modules/
+__pycache__/
+*.py[cod]
+.venv/
+env/
